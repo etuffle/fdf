@@ -15,8 +15,11 @@ NAME = fdf
 # src/obj
 
 SRC = main.c \
-	  get_next_line.c \
-	  fdf.c
+	get_next_line.c \
+	fdf.c \
+	read_valid.c \
+	ft_atoi_base.c \
+	line.c
 
 OBJ = $(addprefix ./obj/,$(SRC:.c=.o))
 
